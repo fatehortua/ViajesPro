@@ -1,0 +1,166 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vuelos Internacionales",
+        "descripcion": "Reserva de vuelos a más de 500 destinos en todo el mundo",
+        "descripcionCompleta": "Acceso exclusivo a las mejores tarifas aéreas de más de 500 aerolíneas internacionales. Ofrecemos vuelos en clase económica, business y primera clase con opciones flexibles de cambio y cancelación.",
+        "precio": "Desde €299",
+        "categoria": "Transporte",
+        "imagen": "https://images.unsplash.com/photo-1488085061387-422e29b40080?w=600&q=70",
+        "caracteristicas": [
+            "500+ aerolíneas",
+            "Cambios flexibles",
+            "Mejor precio garantizado",
+            "Asistencia 24/7"
+        ],
+        "incluye": [
+            "Selección de asientos",
+            "Equipaje facturado incluido",
+            "Seguro de cancelación",
+            "Check-in prioritario"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Hoteles de Lujo",
+        "descripcion": "Alojamiento en los mejores hoteles 5 estrellas del mundo",
+        "descripcionCompleta": "Seleccionamos los mejores hoteles de lujo en los destinos más exclusivos del planeta.",
+        "precio": "Desde €150/noche",
+        "categoria": "Alojamiento",
+        "imagen": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=70",
+        "caracteristicas": [
+            "5 estrellas garantizadas",
+            "Desayuno incluido",
+            "Spa disponible",
+            "Concierge 24/7"
+        ],
+        "incluye": [
+            "Desayuno buffet",
+            "Acceso al spa",
+            "WiFi premium",
+            "Traslado al aeropuerto"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Tours Guiados",
+        "descripcion": "Excursiones con guías expertos en los principales destinos",
+        "descripcionCompleta": "Nuestros tours guiados te llevan a descubrir la historia y cultura de cada destino.",
+        "precio": "Desde €45",
+        "categoria": "Experiencias",
+        "imagen": "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=600&q=70",
+        "caracteristicas": [
+            "Guías certificados",
+            "Grupos pequeños",
+            "Transporte incluido",
+            "Audio-guía"
+        ],
+        "incluye": [
+            "Transporte en bus",
+            "Guía bilingüe",
+            "Auriculares",
+            "Seguro de viaje"
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "Cruceros Premium",
+        "descripcion": "Viajes en crucero por las rutas más espectaculares",
+        "descripcionCompleta": "Embárcate en la experiencia más lujosa del mar con nuestra selección de cruceros premium.",
+        "precio": "Desde €899",
+        "categoria": "Experiencias",
+        "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&q=70",
+        "caracteristicas": [
+            "Rutas exclusivas",
+            "Todo incluido",
+            "Entretenimiento 24h",
+            "Restaurantes gourmet"
+        ],
+        "incluye": [
+            "Camarote exterior",
+            "Todas las comidas",
+            "Entretenimiento",
+            "Excursiones en puerto"
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Alquiler de Autos",
+        "descripcion": "Vehículos de última generación en más de 150 países",
+        "descripcionCompleta": "Flota de vehículos modernos disponibles en más de 2,000 ubicaciones en todo el mundo.",
+        "precio": "Desde €35/día",
+        "categoria": "Transporte",
+        "imagen": "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=600&q=70",
+        "caracteristicas": [
+            "150+ países",
+            "Seguro incluido",
+            "Sin km límite",
+            "GPS gratuito"
+        ],
+        "incluye": [
+            "Seguro a todo riesgo",
+            "GPS integrado",
+            "Asistencia en carretera"
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Paquetes de Luna de Miel",
+        "descripcion": "Experiencias románticas inolvidables para parejas",
+        "descripcionCompleta": "Celebra el inicio de tu vida juntos con uno de nuestros paquetes especiales de luna de miel.",
+        "precio": "Desde €1,999",
+        "categoria": "Paquetes",
+        "imagen": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=70",
+        "caracteristicas": [
+            "Destinos románticos",
+            "Suite nupcial",
+            "Cena privada",
+            "Decoración especial"
+        ],
+        "incluye": [
+            "Vuelos ida y vuelta",
+            "Suite de lujo 7 noches",
+            "Cena romántica privada"
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Aventuras Extremas",
+        "descripcion": "Actividades de adrenalina para los más aventureros",
+        "descripcionCompleta": "Paquetes de aventura con actividades como paracaidismo, rafting, escalada y parapente.",
+        "precio": "Desde €120",
+        "categoria": "Experiencias",
+        "imagen": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&q=70",
+        "caracteristicas": [
+            "Instructores certificados",
+            "Equipos seguros",
+            "Seguro incluido",
+            "Fotos y video"
+        ],
+        "incluye": [
+            "Equipamiento completo",
+            "Instructor personal",
+            "Video del recorrido"
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "Tours Gastronómicos",
+        "descripcion": "Descubre la cultura culinaria de cada destino",
+        "descripcionCompleta": "Explora el mundo a través de sus sabores con visitas a mercados locales y clases de cocina.",
+        "precio": "Desde €80",
+        "categoria": "Experiencias",
+        "imagen": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=70",
+        "caracteristicas": [
+            "Chefs expertos",
+            "Mercados locales",
+            "Degustaciones",
+            "Recetas incluidas"
+        ],
+        "incluye": [
+            "Visita a 3 mercados",
+            "Clase de cocina 3h",
+            "Cena en restaurante top"
+        ]
+    }
+]

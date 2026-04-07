@@ -1,59 +1,37 @@
-# Viasjespro
+#1 Viasjespro - Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+Este proyecto está desarrollado con [Angular](https://angular.dev/). A continuación, se detallan las instrucciones necesarias para configurar y ejecutar el entorno de desarrollo de forma local.
 
-## Development server
+## 📋 Requisitos Previos
 
-To start a local development server, run:
+Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
+* [Node.js](https://nodejs.org/) (Se recomienda una versión LTS reciente, como la v18 o v20).
+* **Angular CLI** (Si no lo tienes, puedes instalarlo globalmente ejecutando: `npm install -g @angular/cli`).
+* Git.
 
+## 🚀 Guía de Ejecución Local
+
+Sigue estos pasos paso a paso para arrancar el proyecto en tu máquina:
+
+### 1. Clonar el repositorio (si aplica)
+Si estás descargando el proyecto por primera vez, clónalo y entra a la carpeta:
 ```bash
+git clone <URL_DEL_REPOSITORIO>
+cd viasjespro
+
+2. Instalar las dependencias
+Este paso es crucial. Va a leer el archivo package.json y descargará todos los paquetes necesarios (incluyendo las librerías de animaciones de Angular) en la carpeta node_modules.
+
+Bash
+npm install
+
+3. Iniciar el servidor de desarrollo
+Una vez finalizada la instalación, levanta el proyecto de forma local ejecutando:
+
+Bash
 ng serve
-```
+4. Ver la aplicación
+Abre tu navegador web de preferencia y dirígete a la siguiente dirección:
+http://localhost:4200/
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+La aplicación se recargará automáticamente cada vez que guardes cambios en los archivos del código fuente.
