@@ -23,6 +23,10 @@ import { ServiciosService } from '../../services/servicios.service';
           Favoritos
           <span class="nav-badge" *ngIf="favCount > 0">{{ favCount }}</span>
         </a>
+<<<<<<< HEAD
+        <a routerLink="/contacto" routerLinkActive="active">Contacto</a>
+=======
+>>>>>>> 7881f349d69a98351e6d21b7d6216cf9bc243679
       </div>
       <a routerLink="/favoritos" class="nav-fav-icon">
         🤍

@@ -43,11 +43,23 @@ import { FooterComponent } from '../../components/footer/footer.component';
           <div class="sidebar-box">
             <div class="sidebar-price-label">Precio</div>
             <div class="sidebar-price">{{ servicio.precio }}</div>
+<<<<<<< HEAD
+            <a class="btn btn-primary btn-block" routerLink="/contacto">Solicitar Información</a>
+=======
+>>>>>>> 7881f349d69a98351e6d21b7d6216cf9bc243679
             <button class="btn btn-block fav-toggle-btn"
                     [ngClass]="{ 'fav-active': esFav }" (click)="toggleFav()">
               {{ esFav ? '❤️ Quitar de Favoritos' : '🤍 Agregar a Favoritos' }}
             </button>
           </div>
+<<<<<<< HEAD
+          <div class="sidebar-box">
+            <h4>¿Necesitas ayuda?</h4>
+            <p>Nuestro equipo está disponible para resolver tus dudas</p>
+            <a class="btn btn-light btn-block" routerLink="/contacto">✉️ Contactar</a>
+          </div>
+=======
+>>>>>>> 7881f349d69a98351e6d21b7d6216cf9bc243679
         </div>
       </div>
       <div class="others-section" *ngIf="otrosServicios.length > 0">
