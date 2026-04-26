@@ -57,10 +57,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
       <p>Contáctanos hoy y comienza a planificar el viaje de tus sueños</p>
       <div class="cta-btns">
         <a class="btn btn-primary" routerLink="/servicios">Explorar Servicios</a>
-<<<<<<< HEAD
         <a class="btn btn-secondary" routerLink="/contacto">Solicitar Cotización</a>
-=======
->>>>>>> 7881f349d69a98351e6d21b7d6216cf9bc243679
       </div>
     </div>
     <app-footer />

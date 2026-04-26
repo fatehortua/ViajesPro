@@ -27,14 +27,11 @@ import { FooterComponent } from '../../components/footer/footer.component';
             (toggleFav)="quitarFav($event)">
           </app-service-card>
         </div>
-<<<<<<< HEAD
         <div class="fav-cta">
           <h3>¿Listo para reservar?</h3>
           <p>Contáctanos para obtener más información sobre estos servicios</p>
           <a class="btn btn-primary" routerLink="/contacto">Solicitar Información</a>
         </div>
-=======
->>>>>>> 7881f349d69a98351e6d21b7d6216cf9bc243679
       </ng-container>
       <ng-template #empty>
         <div class="fav-empty">
